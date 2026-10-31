@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Common Ground — soil information concept demonstrator</title>
+<meta name="description" content="Concept demonstrator, using synthetic data, of a shared soil-information system for West Africa and the Sahel.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%23f2e6cf'/%3E%3Cpath d='M1.5 13h29' stroke='%2324622a' stroke-width='3'/%3E%3Cpath d='M2 19h28' stroke='%23a0663e' stroke-width='4'/%3E%3Cpath d='M4 25h24' stroke='%236b3f22' stroke-width='4'/%3E%3C/svg%3E">
+</head>
+<body>
+<div class="ribbon" role="note">
+  <strong data-i18n="ribbon.label">Synthetic data</strong>
+  <span data-i18n="ribbon.text">Concept demonstrator. Every sample, laboratory and result shown here is invented.</span>
+  <a href="#view=about" data-i18n="ribbon.link">What is real?</a>
+</div>
+
+<header class="masthead">
+  <div class="brand">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+      <circle cx="16" cy="16" r="15" fill="#f2e6cf"/>
+      <path d="M1.5 13h29" stroke="#24622a" stroke-width="3"/>
+      <path d="M2 19h28" stroke="#a0663e" stroke-width="4"/>
+      <path d="M4 25h24" stroke="#6b3f22" stroke-width="4"/>
+    </svg>
+    <div>
+      <h1>Common Ground</h1>
+      <p class="tagline" data-i18n="tagline">Shared soil information for West Africa and the Sahel</p>
+    </div>
+  </div>
+  <div class="controls">
+    <div class="seg" role="group" aria-labelledby="lens-label" id="lens-toggle">
+      <span id="lens-label" class="seg-label" data-i18n="lens.label">Lens</span>
+      <button data-lens="soil" data-i18n="lens.soil">Soil science</button>
+      <button data-lens="econ" data-i18n="lens.econ">Economics</button>
+    </div>
+    <div class="seg" role="group" aria-labelledby="viewer-label" id="viewer-toggle">
+      <span id="viewer-label" class="seg-label" data-i18n="viewer.label">View as</span>
+      <button data-viewer="member" data-i18n="viewer.member">Hub member</button>
+      <button data-viewer="public" data-i18n="viewer.public">Public</button>
+    </div>
+    <div class="seg" role="group" aria-label="Language" id="lang-toggle">
+      <button data-lang="en" lang="en">EN</button>
+      <button data-lang="fr" lang="fr">FR</button>
+    </div>
+    <button class="tour-btn" id="tour-start" data-i18n="tour.start">Guided tour</button>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Views">
+  <a href="#view=map" data-view="map"><span class="num">1</span><span data-i18n="nav.map">Shared map</span></a>
+  <a href="#view=scenario" data-view="scenario"><span class="num">2</span><span data-i18n="nav.scenario">Fertilizer scenario</span></a>
+  <a href="#view=network" data-view="network"><span class="num">3</span><span data-i18n="nav.network">Members &amp; labs</span></a>
+  <a href="#view=dialogue" data-view="dialogue"><span class="num">4</span><span data-i18n="nav.dialogue">Dialogue</span></a>
+  <a href="#view=about" data-view="about"><span class="num">5</span><span data-i18n="nav.about">About</span></a>
+</nav>
+
+<main id="app" aria-live="polite">
+  <p class="loading" data-i18n="loading">Loading…</p>
+</main>
+
+<div id="tooltip" class="tooltip" role="status" hidden></div>
+<aside id="tour" class="tour" hidden aria-live="polite"></aside>
+
+<footer class="foot">
+  <p data-i18n-html="footer">Independent concept demonstrator prepared for discussion with the Regional Hub for Fertilizer and Soil Health for West Africa and the Sahel. Not an official product of the Hub or of any member state. Soil and climate layers: SoilGrids (ISRIC), WorldClim; boundaries: geoBoundaries, Natural Earth.</p>
+</footer>
+
+<script src="vendor/d3.v7.9.0.min.js"></script>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

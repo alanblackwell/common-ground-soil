@@ -1,0 +1,84 @@
+Samples and campaigns by country
+  NGA  1401 samples   31 campaigns  cropland  28.6 Mha  farm households  17.0 M
+  NER   394 samples    9 campaigns  cropland  10.6 Mha  farm households   3.3 M
+  BEN   407 samples    6 campaigns  cropland   3.6 Mha  farm households   2.1 M
+  GHA   557 samples   13 campaigns  cropland   5.6 Mha  farm households   3.9 M
+  BFA   510 samples   11 campaigns  cropland   7.0 Mha  farm households   3.1 M
+  MLI   450 samples   10 campaigns  cropland   5.7 Mha  farm households   2.4 M
+Total samples 3719
+Samples by tier: {'open': 1727, 'aggregate': 624, 'embargo': 325, 'members': 1043}
+Harmonised share: 55%
+
+Median (10th–90th percentile) by zone, all samples
+  Sahelian (n=614)
+    ph       6.41  (  5.91 –   7.11)   below 5.5:   2%
+    soc      3.61  (  2.38 –   5.55)   below 5:  83%
+    n        0.43  (  0.30 –   0.64)   below 0.5:  66%
+    p        5.32  (  1.84 –  12.91)   below 10:  81%
+    k        0.24  (  0.12 –   0.45)   below 0.2:  37%
+    cec      8.41  (  5.42 –  14.59)   below 5:   7%
+    clay    19.21  ( 12.84 –  31.06)
+    sand    63.21  ( 45.66 –  73.73)
+    zn       1.06  (  0.56 –   1.91)   below 1.5:  78%
+    s        6.72  (  3.81 –  11.76)   below 10:  79%
+    b        0.37  (  0.21 –   0.67)   below 0.5:  77%
+  Sudanian savanna (n=888)
+    ph       6.27  (  5.78 –   6.76)   below 5.5:   2%
+    soc      5.84  (  3.72 –   9.31)   below 5:  33%
+    n        0.55  (  0.37 –   0.83)   below 0.5:  38%
+    p        6.81  (  2.80 –  17.74)   below 10:  69%
+    k        0.23  (  0.13 –   0.43)   below 0.2:  37%
+    cec      8.20  (  5.85 –  12.19)   below 5:   4%
+    clay    20.95  ( 14.17 –  28.82)
+    sand    54.56  ( 39.64 –  65.40)
+    zn       1.27  (  0.71 –   2.27)   below 1.5:  62%
+    s        8.36  (  4.76 –  13.81)   below 10:  67%
+    b        0.42  (  0.22 –   0.81)   below 0.5:  65%
+  Northern Guinea savanna (n=1254)
+    ph       6.24  (  5.77 –   6.65)   below 5.5:   2%
+    soc      9.03  (  5.55 –  15.57)   below 5:   6%
+    n        0.91  (  0.57 –   1.44)   below 0.5:   5%
+    p       10.50  (  4.08 –  25.20)   below 10:  47%
+    k        0.29  (  0.16 –   0.55)   below 0.2:  21%
+    cec      9.92  (  6.94 –  15.96)   below 5:   1%
+    clay    21.05  ( 14.52 –  27.70)
+    sand    54.44  ( 41.12 –  68.10)
+    zn       1.52  (  0.81 –   3.04)   below 1.5:  49%
+    s        9.53  (  5.42 –  16.92)   below 10:  54%
+    b        0.46  (  0.25 –   0.85)   below 0.5:  57%
+  Southern Guinea & derived savanna (n=621)
+    ph       5.92  (  5.43 –   6.49)   below 5.5:  12%
+    soc     10.15  (  5.54 –  18.76)   below 5:   7%
+    n        0.89  (  0.54 –   1.62)   below 0.5:   5%
+    p       11.25  (  4.45 –  26.30)   below 10:  44%
+    k        0.30  (  0.16 –   0.62)   below 0.2:  22%
+    cec      9.92  (  6.45 –  18.62)   below 5:   1%
+    clay    20.45  ( 13.05 –  29.34)
+    sand    57.51  ( 39.56 –  70.51)
+    zn       1.67  (  0.80 –   3.22)   below 1.5:  42%
+    s        9.83  (  5.69 –  17.58)   below 10:  52%
+    b        0.50  (  0.26 –   0.92)   below 0.5:  50%
+  Humid forest (n=342)
+    ph       5.35  (  4.91 –   5.77)   below 5.5:  66%
+    soc     14.15  (  9.55 –  21.54)   below 5:   0%
+    n        1.40  (  0.89 –   2.55)   below 0.5:   0%
+    p        9.22  (  3.96 –  23.43)   below 10:  55%
+    k        0.33  (  0.16 –   1.12)   below 0.2:  22%
+    cec      9.72  (  6.72 –  33.65)   below 5:   0%
+    clay    20.35  ( 14.67 –  28.34)
+    sand    59.74  ( 41.36 –  73.01)
+    zn       1.82  (  0.93 –   3.39)   below 1.5:  39%
+    s       11.32  (  6.28 –  18.26)   below 10:  40%
+    b        0.50  (  0.28 –   0.90)   below 0.5:  50%
+
+Proficiency testing, latest round max |z|
+  NG-1  joined 2019  1.48
+  NG-2  joined 2021  1.33
+  NG-3  joined 2024  1.57
+  GH-1  joined 2019  1.2
+  GH-2  joined 2022  1.25
+  BF-1  joined 2020  1.3
+  ML-1  joined 2020  0.55
+  ML-2  joined None  -
+  NE-1  joined 2021  1.4
+  BJ-1  joined 2020  1.82
